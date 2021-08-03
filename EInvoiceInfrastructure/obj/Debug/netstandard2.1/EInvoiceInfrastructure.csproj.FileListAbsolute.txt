@@ -1,0 +1,11 @@
+C:\Users\BTC\source\repos\EInvoice\EInvoiceInfrastructure\bin\Debug\netstandard2.1\EInvoiceInfrastructure.deps.json
+C:\Users\BTC\source\repos\EInvoice\EInvoiceInfrastructure\bin\Debug\netstandard2.1\EInvoiceInfrastructure.dll
+C:\Users\BTC\source\repos\EInvoice\EInvoiceInfrastructure\obj\Debug\netstandard2.1\EInvoiceInfrastructure.csprojAssemblyReference.cache
+C:\Users\BTC\source\repos\EInvoice\EInvoiceInfrastructure\obj\Debug\netstandard2.1\EInvoiceInfrastructure.AssemblyInfoInputs.cache
+C:\Users\BTC\source\repos\EInvoice\EInvoiceInfrastructure\obj\Debug\netstandard2.1\EInvoiceInfrastructure.AssemblyInfo.cs
+C:\Users\BTC\source\repos\EInvoice\EInvoiceInfrastructure\bin\Debug\netstandard2.1\EInvoiceCore.dll
+C:\Users\BTC\source\repos\EInvoice\EInvoiceInfrastructure\bin\Debug\netstandard2.1\EInvoiceInfrastructure.pdb
+C:\Users\BTC\source\repos\EInvoice\EInvoiceInfrastructure\bin\Debug\netstandard2.1\EInvoiceCore.pdb
+C:\Users\BTC\source\repos\EInvoice\EInvoiceInfrastructure\obj\Debug\netstandard2.1\EInvoiceInfrastructure.csproj.CopyComplete
+C:\Users\BTC\source\repos\EInvoice\EInvoiceInfrastructure\obj\Debug\netstandard2.1\EInvoiceInfrastructure.dll
+C:\Users\BTC\source\repos\EInvoice\EInvoiceInfrastructure\obj\Debug\netstandard2.1\EInvoiceInfrastructure.pdb

@@ -1,0 +1,126 @@
+﻿@model IEnumerable<EInvoiceCore.Entities.InvoiceHeader>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>All Invoices</h1>
+<div class="container">
+    <form asp-controller="Invoice" asp-action="Index" method="get">
+        <div class="form-actions no-color">
+            <p>
+                Find by name: <input type="text" style="margin-left: 2%;" name="SearchString" />
+                <input type="submit" value="Search" class="btn btn-success" /> |
+                <a asp-action="Index">Back to Full List</a>
+            </p>
+        </div>
+    </form>
+    <form asp-action="Index" method="get">
+        <div class="form-actions no-color">
+            <p>
+                Find by Number: <input type="text" name="SearchNumber" />
+                <input type="submit" value="Search" class="btn btn-success" /> |
+                <a asp-action="Index">Back to Full List</a>
+            </p>
+        </div>
+    </form>
+    <form asp-action="Index" method="get">
+        <div class="form-actions no-color">
+
+            <p>
+                Find by From User:<select name="userId" required>
+                    <option value="">Select User</option>
+                    @if (ViewBag.AllUsers != null)
+                    {
+                        @foreach (var user in ViewBag.AllUsers)
+                        {
+                            <option value="@user.Id">@user.UserName</option>
+                        }
+                    }
+
+                </select>
+                <input type="submit" value="Search" class="btn btn-success" /> |
+                <a asp-action="Index">Back to Full List</a>
+            </p>
+        </div>
+    </form>
+    <form asp-action="Index" method="get">
+        <div class="form-actions no-color">
+            <p>
+                Find by Date From: <input type="date" name="from" />
+                Find by Date To: <input type="date" name="to" />
+                <input type="submit" value="Search" class="btn btn-success" /> |
+                <a asp-action="Index">Back to Full List</a>
+            </p>
+        </div>
+    </form>
+
+    <div class="row">
+        <p>
+            <a asp-action="CreateInvoice" class="btn btn-primary">Create New</a>
+        </p>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        InternalId
+                    </th>
+                    <th>
+                        Customer Name
+                    </th>
+                    <th>
+                        Invoice Date
+                    </th>
+                    <th>
+                        Tax Value
+                    </th>
+                    <th>
+                        Total Amount
+                    </th>
+                    <th>
+                        NetValue
+                    </th>
+                    <th>
+                    </th>
+                    <th>
+                    </th>
+                    <th>
+                    </th>
+                </tr>
+            </thead>
+
+            @if (Model.Count() > 0)
+            {
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="table-primary">
+                            <td>
+                                <a asp-action="Details" asp-route-id="@item.Id">
+                                    @Html.DisplayFor(modelItem => item.InternalId)
+                                </a>
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CustomerName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.InvoiceDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TaxValue)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TotalAmount)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NetTotal)
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+            }
+
+        </table>
+    </div>
+</div>
+

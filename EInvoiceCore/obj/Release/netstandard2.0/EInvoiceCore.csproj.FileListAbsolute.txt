@@ -1,0 +1,8 @@
+C:\Users\BTC\source\repos\EInvoice\EInvoiceCore\bin\Release\netstandard2.0\EInvoiceCore.deps.json
+C:\Users\BTC\source\repos\EInvoice\EInvoiceCore\bin\Release\netstandard2.0\EInvoiceCore.dll
+C:\Users\BTC\source\repos\EInvoice\EInvoiceCore\bin\Release\netstandard2.0\EInvoiceCore.pdb
+C:\Users\BTC\source\repos\EInvoice\EInvoiceCore\obj\Release\netstandard2.0\EInvoiceCore.csprojAssemblyReference.cache
+C:\Users\BTC\source\repos\EInvoice\EInvoiceCore\obj\Release\netstandard2.0\EInvoiceCore.AssemblyInfoInputs.cache
+C:\Users\BTC\source\repos\EInvoice\EInvoiceCore\obj\Release\netstandard2.0\EInvoiceCore.AssemblyInfo.cs
+C:\Users\BTC\source\repos\EInvoice\EInvoiceCore\obj\Release\netstandard2.0\EInvoiceCore.dll
+C:\Users\BTC\source\repos\EInvoice\EInvoiceCore\obj\Release\netstandard2.0\EInvoiceCore.pdb

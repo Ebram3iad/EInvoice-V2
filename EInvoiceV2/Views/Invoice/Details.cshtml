@@ -1,0 +1,116 @@
+﻿@model EInvoiceCore.Entities.InvoiceHeader
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h5>@Html.DisplayNameFor(model => model.InternalId):</h5> 
+            <h6>@Model.InternalId</h6> 
+        </div>
+        <div class="col-md-4">
+            <h5>
+                @Html.DisplayNameFor(model => model.InvoiceDate):
+            </h5>
+            <h6> @Model.InvoiceDate</h6>
+           
+        </div>
+        <div class="col-md-4">
+            <h5>
+                @Html.DisplayNameFor(model => model.CustomerName):
+            </h5>
+            <h6>
+                @Model.CustomerName
+            </h6>
+        </div>
+        <div class="col-md-4">
+            <h5>
+                @Html.DisplayNameFor(model => model.TaxValue):
+            </h5>
+            <h6>
+                @Model.TaxValue
+            </h6>
+
+        </div>
+        <div class="col-md-4">
+            <h5>
+                @Html.DisplayNameFor(model => model.TotalAmount):
+            </h5>
+            <h6>
+                @Model.TotalAmount
+            </h6>
+
+        </div>
+        <div class="col-md-4">
+            <h5>
+                @Html.DisplayNameFor(model => model.NetTotal):
+            </h5>
+            <h6>
+                @Model.NetTotal
+            </h6>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        #
+                    </th>
+                    <th>
+                        Product Name
+                    </th>
+                    <th>
+                        ProductNo
+                    </th>
+                    <th>
+                        Quantity
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                    <th>
+                        Total
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model.InvoiceLines)
+                {
+                    <tr class="table-dark">
+                        <td >
+                            @Html.DisplayFor(modelItem => item.Id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProductName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProductNo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Quantity)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Price)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Total)
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <a asp-action="Index" class="btn btn-outline-dark">Back to List</a>
+    </div>
+</div>
+
+
