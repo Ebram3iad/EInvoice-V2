@@ -6,3 +6,10 @@ C:\Users\BTC\source\repos\EInvoice\EInvoiceCore\obj\Debug\netstandard2.0\EInvoic
 C:\Users\BTC\source\repos\EInvoice\EInvoiceCore\bin\Debug\netstandard2.0\EInvoiceCore.pdb
 C:\Users\BTC\source\repos\EInvoice\EInvoiceCore\obj\Debug\netstandard2.0\EInvoiceCore.dll
 C:\Users\BTC\source\repos\EInvoice\EInvoiceCore\obj\Debug\netstandard2.0\EInvoiceCore.pdb
+D:\4Soft\Test\EInvoice-V2\EInvoiceCore\bin\Debug\netstandard2.0\EInvoiceCore.deps.json
+D:\4Soft\Test\EInvoice-V2\EInvoiceCore\bin\Debug\netstandard2.0\EInvoiceCore.dll
+D:\4Soft\Test\EInvoice-V2\EInvoiceCore\bin\Debug\netstandard2.0\EInvoiceCore.pdb
+D:\4Soft\Test\EInvoice-V2\EInvoiceCore\obj\Debug\netstandard2.0\EInvoiceCore.AssemblyInfoInputs.cache
+D:\4Soft\Test\EInvoice-V2\EInvoiceCore\obj\Debug\netstandard2.0\EInvoiceCore.AssemblyInfo.cs
+D:\4Soft\Test\EInvoice-V2\EInvoiceCore\obj\Debug\netstandard2.0\EInvoiceCore.dll
+D:\4Soft\Test\EInvoice-V2\EInvoiceCore\obj\Debug\netstandard2.0\EInvoiceCore.pdb

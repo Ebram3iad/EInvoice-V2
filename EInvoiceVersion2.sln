@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EInvoiceV2", "EInvoiceV2\EInvoiceV2.csproj", "{F7E07FB9-1FCA-40C1-AE39-7F857EDBAFA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EInvoiceV2", "EInvoiceV2\EInvoiceV2.csproj", "{F7E07FB9-1FCA-40C1-AE39-7F857EDBAFA2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EInvoiceCore", "..\EInvoice\EInvoiceCore\EInvoiceCore.csproj", "{146B4EB7-003E-422A-A8E6-EB4EFC2296D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EInvoiceCore", "EInvoiceCore\EInvoiceCore.csproj", "{146B4EB7-003E-422A-A8E6-EB4EFC2296D8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EInvoiceInfrastructure", "..\EInvoice\EInvoiceInfrastructure\EInvoiceInfrastructure.csproj", "{FF05189F-ACA1-40F2-B8FD-9045C32A40D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EInvoiceInfrastructure", "EInvoiceInfrastructure\EInvoiceInfrastructure.csproj", "{FF05189F-ACA1-40F2-B8FD-9045C32A40D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

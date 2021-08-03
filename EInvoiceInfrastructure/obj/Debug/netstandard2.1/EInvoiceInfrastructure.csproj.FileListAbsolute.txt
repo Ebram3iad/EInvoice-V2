@@ -9,3 +9,14 @@ C:\Users\BTC\source\repos\EInvoice\EInvoiceInfrastructure\bin\Debug\netstandard2
 C:\Users\BTC\source\repos\EInvoice\EInvoiceInfrastructure\obj\Debug\netstandard2.1\EInvoiceInfrastructure.csproj.CopyComplete
 C:\Users\BTC\source\repos\EInvoice\EInvoiceInfrastructure\obj\Debug\netstandard2.1\EInvoiceInfrastructure.dll
 C:\Users\BTC\source\repos\EInvoice\EInvoiceInfrastructure\obj\Debug\netstandard2.1\EInvoiceInfrastructure.pdb
+D:\4Soft\Test\EInvoice-V2\EInvoiceInfrastructure\bin\Debug\netstandard2.1\EInvoiceInfrastructure.deps.json
+D:\4Soft\Test\EInvoice-V2\EInvoiceInfrastructure\bin\Debug\netstandard2.1\EInvoiceInfrastructure.dll
+D:\4Soft\Test\EInvoice-V2\EInvoiceInfrastructure\bin\Debug\netstandard2.1\EInvoiceInfrastructure.pdb
+D:\4Soft\Test\EInvoice-V2\EInvoiceInfrastructure\bin\Debug\netstandard2.1\EInvoiceCore.dll
+D:\4Soft\Test\EInvoice-V2\EInvoiceInfrastructure\bin\Debug\netstandard2.1\EInvoiceCore.pdb
+D:\4Soft\Test\EInvoice-V2\EInvoiceInfrastructure\obj\Debug\netstandard2.1\EInvoiceInfrastructure.csprojAssemblyReference.cache
+D:\4Soft\Test\EInvoice-V2\EInvoiceInfrastructure\obj\Debug\netstandard2.1\EInvoiceInfrastructure.AssemblyInfoInputs.cache
+D:\4Soft\Test\EInvoice-V2\EInvoiceInfrastructure\obj\Debug\netstandard2.1\EInvoiceInfrastructure.AssemblyInfo.cs
+D:\4Soft\Test\EInvoice-V2\EInvoiceInfrastructure\obj\Debug\netstandard2.1\EInvoiceInfrastructure.csproj.CopyComplete
+D:\4Soft\Test\EInvoice-V2\EInvoiceInfrastructure\obj\Debug\netstandard2.1\EInvoiceInfrastructure.dll
+D:\4Soft\Test\EInvoice-V2\EInvoiceInfrastructure\obj\Debug\netstandard2.1\EInvoiceInfrastructure.pdb
